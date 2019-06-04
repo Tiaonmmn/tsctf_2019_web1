@@ -20,6 +20,7 @@
 - PHP版本必须为7.0
 - 供选手登录的账户信息写在Dockerfile的ENV username和ENV password下，root用户密码为ENV rootpassword，MySQL的root密码为ENV mysqlrootpassword
 - 开放root用户登录ssh
+- data.sql在/var/www/html/下
 
 ## 启动
 
