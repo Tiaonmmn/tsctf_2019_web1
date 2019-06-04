@@ -1,0 +1,47 @@
+<?php
+if (!defined('IN_FINECMS')) exit();
+return array (
+  'types' => 
+  array (
+    'id' => 'mediumint unsigned',
+    'username' => 'char',
+    'password' => 'char',
+    'salt' => 'char',
+    'email' => 'varchar',
+    'nickname' => 'varchar',
+    'avatar' => 'varchar',
+    'groupid' => 'smallint',
+    'modelid' => 'smallint',
+    'credits' => 'int',
+    'regdate' => 'bigint unsigned',
+    'regip' => 'varchar',
+    'status' => 'tinyint',
+    'randcode' => 'varchar',
+    'lastloginip' => 'varchar',
+    'lastlogintime' => 'bigint',
+    'loginip' => 'varchar',
+    'logintime' => 'bigint',
+  ),
+  'fields' => 
+  array (
+    0 => 'id',
+    1 => 'username',
+    2 => 'password',
+    3 => 'salt',
+    4 => 'email',
+    5 => 'nickname',
+    6 => 'avatar',
+    7 => 'groupid',
+    8 => 'modelid',
+    9 => 'credits',
+    10 => 'regdate',
+    11 => 'regip',
+    12 => 'status',
+    13 => 'randcode',
+    14 => 'lastloginip',
+    15 => 'lastlogintime',
+    16 => 'loginip',
+    17 => 'logintime',
+  ),
+  'primary_key' => 'id',
+);
